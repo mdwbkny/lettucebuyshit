@@ -3,7 +3,7 @@ module DeviseHelper
 		return '' if resource.errors.empty?
 
 		messages = resource.errors.messages.map { |attr,msg| content_tag(:li, msg.join(', ')) }.join
-		sentence = Il8n.t('errors.messages.not_saved', count: resource.errors.count, resources: resource.class.model_name.human.downcase)
+		sentence = I18n.t('errors.messages.not_saved', count: resource.errors.count, resources: resource.class.model_name.human.downcase)
 
 		html = <<-HTML
 		<div class="alert alert-danger alert-dismissable">
