@@ -33,3 +33,14 @@ body {
 	h5 {font-size: 25px;}
 	p {font-size: 18px;}
 }
+
+.jumbotron {
+	background-image: url('gift.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 243px;
+	width: 1140px;
+	h1 h2 {
+		font-family: guardian-egyptt, georgia, serif;
+	}
+}
