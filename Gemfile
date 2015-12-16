@@ -36,7 +36,7 @@ gem 'devise'
 
 gem 'stripe'
 
-gem 'aws-sdk'
+# gem 'aws-sdk'
 
 group :production do
 	gem 'pg'
